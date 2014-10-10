@@ -72,7 +72,7 @@ elif test -d $cache_dir/node/node_modules; then
     status "Node version changed since last build; rebuilding dependencies"
     rm -rf $cache_dir/node_modules
     rm -rf $cache_dir/node
-    npm rebuild 2>&1 | indent
+    #npm rebuild 2>&1 | indent
   fi
 
 fi
